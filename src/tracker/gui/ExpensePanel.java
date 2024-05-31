@@ -11,7 +11,7 @@ import java.text.SimpleDateFormat;
 import java.text.ParseException;
 
 public class ExpensePanel extends JPanel {
-    private ExpenseServ expenseServ;
+    private final ExpenseServ expenseServ;
 
     public ExpensePanel() {
         setLayout(new BorderLayout());
@@ -50,7 +50,7 @@ public class ExpensePanel extends JPanel {
         btnAdd.addActionListener(e -> {
            String textDate = jtfDate.getText();
            String textAmount = jtfAmount.getText();
-           String textCategory = jcbCategory.getSelectedItem().toString();
+           String textCategory = (String) jcbCategory.getSelectedItem();
            String textDescription = txtDescription.getText();
 
            if(validateEnteredInputs(textDate, textAmount)) {
