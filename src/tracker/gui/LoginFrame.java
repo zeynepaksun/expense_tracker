@@ -11,7 +11,7 @@ public class LoginFrame extends JFrame{
     private JTextField usernameField;
 
     public LoginFrame() {
-        setSize(300,200);
+        setSize(400,300);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("Login");
