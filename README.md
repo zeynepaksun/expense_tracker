@@ -51,7 +51,7 @@ With its simple design and robust functionality, the Expense Tracker simplifies 
      - Username: 'admin'
      - Password: 'admin123'
    - Click 'Login' to access main application.
-   - 
+
 ## Contributing
 1. Fork the repository.
 2. Create a new branch (git checkout -b feature-branch).
