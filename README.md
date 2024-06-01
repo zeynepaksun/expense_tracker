@@ -16,7 +16,6 @@ Key features include:
 - **Expense Recording**: User can record their expenses, specifying the date, amount, category, and description.
 - **Categorization**: Expenses can be categorized into predefined categories such as Food, Transportation, and Other.
 - **Budget Setting**: User can set a monthly budget to manage their spending.
-- **Visual Analysis**: User can analyze their spending patterns through visual tools.
 - **User Authentication**: Login to prevent unauthorized access.
 
 ## Installation
